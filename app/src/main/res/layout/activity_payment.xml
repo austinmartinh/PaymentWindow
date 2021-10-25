@@ -24,7 +24,8 @@
             android:id="@+id/cardholdersNameField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/enter_name" />
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"/>
 
         <TextView
             android:id="@+id/cardNumberLabel"
@@ -36,6 +37,8 @@
             android:id="@+id/cardNumberField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="16"
             android:hint="@string/card_number_hint" />
 
         <LinearLayout
@@ -79,6 +82,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:inputType="number"
+                android:maxLength="2"
                 android:hint="@string/month_hint"/>
 
             <EditText
@@ -86,6 +91,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:inputType="number"
+                android:maxLength="2"
                 android:hint="@string/month_hint"/>
 
             <EditText
@@ -93,6 +100,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:inputType="number"
+                android:maxLength="3"
                 android:hint="@string/cvv_hint"/>
         </LinearLayout>
 

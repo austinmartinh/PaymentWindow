@@ -11,8 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PaymentWindow">
         <activity
-            android:name=".activities.PaymentActivity"
-            android:exported="true">
+            android:name=".activities.PaymentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
